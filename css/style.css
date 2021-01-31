@@ -25,7 +25,7 @@
 	Global Styles
 ========================================================================== */
 a {
-	color: #E04343;
+	color: #ffa4cb;
 	-webkit-transition:all 0.5s;
 	-moz-transition:all 0.5s;
 	-o-transition:all 0.5s;
@@ -329,7 +329,7 @@ table {
 	outline:none!important;
 }
 .menu-wrap a:hover,.menu-wrap a:focus {
-	color: #E04343;
+	color: #a4bfe4;
 }
 .content-wrap {
 	overflow-y:scroll;
@@ -369,7 +369,7 @@ table {
 	right:0.5em;
 	bottom:0.5em;
 	left:0.5em;
-	background: linear-gradient(#E04343 20%,rgba(0, 0, 0, 0) 20%,rgba(0, 0, 0, 0) 40%,#E04343 40%,#E04343 60%,rgba(0, 0, 0, 0) 60%,rgba(0, 0, 0, 0) 80%,#E04343 80%);
+	background: linear-gradient(#a4bfe4 20%,rgba(0, 0, 0, 0) 20%,rgba(0, 0, 0, 0) 40%,#a4bfe4 40%,#a4bfe4 60%,rgba(0, 0, 0, 0) 60%,rgba(0, 0, 0, 0) 80%,#a4bfe4 80%);
 	content:'';
 }
 .menu-button:hover {
@@ -424,7 +424,7 @@ table {
 	transform:translate3d(0,0,0);
 	-webkit-transition-delay:0s;
 	transition-delay:0s;
-	border-bottom: 1px solid #E04343;
+	border-bottom: 1px solid #a4bfe4;
 }
 .show-menu .icon-list a {
 	opacity:1;
@@ -453,7 +453,7 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/header-bg.jpg') right bottom no-repeat;
+	background: url('../img/carla.png') right bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
@@ -468,7 +468,7 @@ table {
 	text-transform: uppercase;
 }
 .hero h1 span {
-	color:#a1a9b0;
+	color:#353535;
 	/* display:inline-block; */
 }
 .hero h3 {
@@ -476,7 +476,7 @@ table {
 	margin:0;
 	padding:0;
 	opacity:0.5;
-	color: #E04343;
+	color: #a4bfe4;
 	letter-spacing: 18px;
 	line-height: 50px;
 	text-transform: uppercase;
@@ -568,7 +568,7 @@ h1.arrow {
 	font-weight: bold;
 }
 h1.arrow span {
-    color: #E04343;
+    color: #ffa4cb;
 }
 /* ==========================================================================About========================================================================== */
 .about-image {
@@ -579,7 +579,7 @@ h1.arrow span {
 	background-size:cover;
 }
 .color-bg {
-	background: #E04343;
+	background: #a4bfe4;
 }
 
 .color-bg a {
@@ -609,7 +609,7 @@ h1.arrow span {
 	color: #8C8C8C;
 }
 .color-bg h1.arrow span {
-    color: #FFE800;
+    color: #f8c000;
 }
 .color-bg h1.arrow {
     color: #FFF;
@@ -870,22 +870,22 @@ img.grayscale:hover {
 }
 /* ==========================================================================CTA========================================================================== */
 .spacer-cta {
-	background-color: #E04343;
+	background-color: #a4bfe4;
 	padding:70px 0;
 }
 .outline-btn {
 	display:inline-block;
 	padding:25px 40px;
-	color: #FFE801;
-	border: solid 1px #FFE801;
+	color: #f8c000;
+	border: solid 1px #f8c000;
 	text-transform:uppercase;
 	font-weight:bold;
 	letter-spacing:1px;
 }
 .outline-btn:hover,.outline-btn:focus {
-	color: #E04343;
-	border: solid 1px #E04343;
-	background: #FFE801;
+	color: #ffa4cb;
+	border: solid 1px #ffa4cb;
+	background: #ffffff;
 }
 .weight-outline-btn {
 	display:inline-block;
@@ -919,7 +919,7 @@ ul.social-buttons li:last-child {
 .social-btn {
 	width:40px;
 	height:40px;
-	background: #E04343;
+	background: #a4bfe4;
 	display:inline-block;
 	color:#fff;
 	font-size:17px;
@@ -927,8 +927,8 @@ ul.social-buttons li:last-child {
 	text-align:center;
 }
 .social-btn:hover,.social-btn:focus {
-	background: rgba(255, 232, 0, 1);
-	color: #E04343;
+	background: #ffffff;
+	color: #ffa4cb;
 }
 .social {
 	margin-top: 25px
@@ -937,10 +937,10 @@ ul.social-buttons li:last-child {
 .up-btn {
 	width:55px;
 	height:55px;
-	background: rgba(255, 232, 1, 0.9);
+	background: #a4bfe4;
 	display:block;
 	margin:0 auto;
-	color: #E04343;
+	color: #ffa4cb;
 	font-size:18px;
 	line-height:52px;
 	text-align:center;
@@ -952,8 +952,8 @@ ul.social-buttons li:last-child {
 	margin-right:auto;
 }
 .up-btn:hover,up-btn:focus {
-	color: black;
-	background: #FFE800;
+	color: #a4bfe4;
+	background: #ffa4cb;
 }
 .contact-details {
 	margin:70px 0;
@@ -1007,7 +1007,7 @@ ul.social-buttons li:last-child {
 }
 
 .btn-send{
-	background:#E04343;
+	background:#a4bfe4;
 	color: white;
 	transition: all 0.4s;
 	border-radius: 0;
@@ -1015,8 +1015,9 @@ ul.social-buttons li:last-child {
 }
 
 .btn-send:hover{
-	background: #FFE800;
-	color: #E04343
+	background: #ffffff;
+	color: #ffa4cb;
+	border:1px solid #ffa4cb;
 }
 
 button,button:focus,button:hover,button:active {
@@ -1075,8 +1076,8 @@ ul.slides li {
 	font-weight: bold;
 }
 .flex-control-paging li a.flex-active {
-    background: #E04343;
-    border-color: #E04343;
+    background: #a4bfe4;
+    border-color: #a4bfe4;
 }
 
 .color-bg .flex-control-paging li a{
