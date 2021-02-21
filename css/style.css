@@ -457,7 +457,7 @@ table {
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
-	background-color: #FBFBFB;
+	background-color: #FFFFFF;
 }
 .hero h1 {
 	font-size: 120px;
@@ -557,9 +557,10 @@ table {
 /* ==========================================================================Intro========================================================================== */
 .intro p {
 	margin:50px 0 0;
+	font-size: 24px;
 }
 h1.arrow {
-	font-size: 16px;
+	font-size: 32px;
 	text-transform:uppercase;
 	color:#353535;
 	letter-spacing: 4px;
@@ -605,7 +606,7 @@ h1.arrow span {
 }
 .about-text h1 {
 	text-transform:uppercase;
-	font-size:24px;
+	font-size:32px;
 	color: #8C8C8C;
 }
 .color-bg h1.arrow span {
@@ -980,6 +981,14 @@ ul.social-buttons li:last-child {
 }
 .contact {
 	margin-top:-20px!important;
+}
+#contact p {
+	display:block;
+	color:#545454;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-size:20px;
+	margin-top:15px;
 }
 .contact label {
 	float:left;
