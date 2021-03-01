@@ -86,7 +86,7 @@ fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@car
 
       // Put things in right spots of markup
       let output = '';
-      posts.slice(0,3).forEach((item) => {
+      posts.slice(0,2).forEach((item) => {
          output += `
          <li>
             <a href="${item.link}">
