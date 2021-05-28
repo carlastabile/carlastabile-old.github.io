@@ -877,8 +877,8 @@ img.grayscale:hover {
 .outline-btn {
 	display:inline-block;
 	padding:25px 40px;
-	color: #f8c000;
-	border: solid 1px #f8c000;
+	color: #353535;
+	border: solid 1px #353535;
 	text-transform:uppercase;
 	font-weight:bold;
 	letter-spacing:1px;
@@ -921,8 +921,9 @@ ul.social-buttons li:last-child {
 	width:40px;
 	height:40px;
 	background: #a4bfe4;
+	border: solid 1px;
 	display:inline-block;
-	color:#fff;
+	color:#353535;
 	font-size:17px;
 	line-height:40px;
 	text-align:center;
@@ -939,9 +940,10 @@ ul.social-buttons li:last-child {
 	width:55px;
 	height:55px;
 	background: #a4bfe4;
+	border: solid 1px;
 	display:block;
 	margin:0 auto;
-	color: #ffa4cb;
+	color: #353535;
 	font-size:18px;
 	line-height:52px;
 	text-align:center;
@@ -953,8 +955,8 @@ ul.social-buttons li:last-child {
 	margin-right:auto;
 }
 .up-btn:hover,up-btn:focus {
-	color: #a4bfe4;
-	background: #ffa4cb;
+	color: #ffa4cb;
+	background: #ffffff;
 }
 .contact-details {
 	margin:70px 0;
