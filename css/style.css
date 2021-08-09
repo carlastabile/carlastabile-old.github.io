@@ -18,7 +18,10 @@
 }
 
 
-
+@font-face {
+	font-family: 'polyfont'; /*a name to be used later*/
+	src: url('../assets/font-awesome/fonts/icomoon.ttf'); /*URL to font*/
+}
 
 
 /* ==========================================================================
@@ -928,6 +931,10 @@ ul.social-buttons li:last-child {
 	line-height:40px;
 	text-align:center;
 }
+.polywork {
+	font-family: 'polyfont';
+}
+
 .social-btn:hover,.social-btn:focus {
 	background: #ffffff;
 	color: #ffa4cb;
